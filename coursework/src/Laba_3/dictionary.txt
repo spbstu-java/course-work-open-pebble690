@@ -1,0 +1,9 @@
+cat | кошка
+bird | птица
+go home | идти домой
+dog | собака
+eat | есть
+drink water | пить воду
+hello | привет
+good morning | доброе утро
+look | смотреть

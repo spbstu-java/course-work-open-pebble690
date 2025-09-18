@@ -1,4 +1,7 @@
 import Laba_1.Laba1Panel;
+import Laba_2.Laba2Panel;
+import Laba_3.src.Laba3Panel;
+import Laba_4.Laba4Panel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,8 +11,11 @@ public class CourseworkMainFrame extends JFrame
     private JPanel contentPanel;
 
     public CourseworkMainFrame()
-    {
+    {       
         super("Coursework App");
+        
+        System.setProperty("file.encoding", "UTF-8");
+        
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(800, 600);
         setLayout(new BorderLayout());
@@ -46,13 +52,13 @@ public class CourseworkMainFrame extends JFrame
                 contentPanel.add(new Laba1Panel(), BorderLayout.CENTER);
                 break;
             case "Laba 2":
-                contentPanel.add(new JLabel("Laba 2 - late"), BorderLayout.CENTER);
+                contentPanel.add(new Laba2Panel(), BorderLayout.CENTER);
                 break;
             case "Laba 3":
-                contentPanel.add(new JLabel("Laba 3 - late"), BorderLayout.CENTER);
+                contentPanel.add(new Laba3Panel(), BorderLayout.CENTER);
                 break;
             case "Laba 4":
-                contentPanel.add(new JLabel("Laba 4 - late"), BorderLayout.CENTER);
+                contentPanel.add(new Laba4Panel(), BorderLayout.CENTER);
                 break;
         }
 
